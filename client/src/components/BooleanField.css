@@ -1,0 +1,17 @@
+.boolean-field {
+    justify-self: center;
+    width: 50vw;
+    padding: 10px;
+    border: 1px solid #444b4b;
+    background-color: rgba(150, 150, 150, 0.2);
+    cursor: pointer;
+}
+.boolean-field:hover {
+    background-color: rgba(150, 150, 150, 0.8);
+}
+.boolean-field.checked {
+    background-color: rgba(34, 128, 182, 0.5);
+}
+.boolean-field.checked:hover {
+    background-color: rgba(34, 128, 182, 0.8);
+}

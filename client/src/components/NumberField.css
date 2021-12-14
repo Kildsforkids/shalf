@@ -1,0 +1,10 @@
+.number-field {
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 10px;
+}
+.number-field input {
+    justify-self: center;
+    width: 50%;
+}
